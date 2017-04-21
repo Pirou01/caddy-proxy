@@ -1,5 +1,5 @@
 FROM nimmis/alpine:3.4
-MAINTAINER BlackGlory <woshenmedoubuzhidao@blackglory.me>
+MAINTAINER Fredrik Forsmo <fredrik.forsmo@gmail.com>
 
 RUN apk update && apk upgrade && \
     apk add curl && \
