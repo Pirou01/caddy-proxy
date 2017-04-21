@@ -1,5 +1,6 @@
 # caddy-proxy
-Automated [caddy](https://github.com/mholt/caddy) proxy for Docker containers using docker-gen.
+
+Custom fork of [BlackGlory/caddy-proxy](https://github.com/BlackGlory/caddy-proxy)
 
 ### Usage
 
