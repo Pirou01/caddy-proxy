@@ -5,6 +5,12 @@
     {{ if $basicauth }}
         basicauth {{ $basicauth }}
     {{ end }}
+    {{ $tls := $value.Env.TLS }}
+    {{ if $tls }}
+      tls {{ $tls }}
+    {{ else }}
+      tls off
+    {{ end }}
     {{ $addrLen := len $value.Addresses }}
     {{ if eq $addrLen 1 }}
       {{ with $address := index $value.Addresses 0 }}
