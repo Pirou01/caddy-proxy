@@ -23,6 +23,6 @@ RUN touch /etc/Caddyfile
 
 ADD etc /etc
 
-EXPOSE 2015
+EXPOSE 80 443
 
 ENV DOCKER_HOST unix:///tmp/docker.sock
