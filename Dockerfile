@@ -23,4 +23,6 @@ RUN touch /etc/Caddyfile
 
 ADD etc /etc
 
+EXPOSE 2015
+
 ENV DOCKER_HOST unix:///tmp/docker.sock
